@@ -1,4 +1,4 @@
-**New - Only tested this once and it seemed fine... There's probably bugs somewhere, can't be sure until more tests are completed**
+**New - Only tested this once and it seemed fine... There's probably bugs somewhere.**
 
 **The Normal Mode version can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
 
