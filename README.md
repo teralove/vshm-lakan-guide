@@ -31,4 +31,4 @@ Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) 
 * You can disable the Begone messages by setting the variable 'showBegoneMessages' to false
 
 
-** The Guide for VS Normal Mode can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
+**The Guide for VS Normal Mode can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
