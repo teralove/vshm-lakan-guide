@@ -15,7 +15,7 @@ Available messages:
 * **Gather + no cleanse**  - aka Bombs
 * **Get out**  - for Begone! (Purple)
 * **Get in**  - for Begone! (Red/Orange)
-* **Ring soon*  - a warning for incoming soul mechanic
+* **Ring soon**  - a warning for incoming soul mechanic
 * **plague/regress**  - for the shield when entering Velik's soul
 * **sleep**  - for the shield when exiting Velik's soul
 
