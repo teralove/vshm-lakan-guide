@@ -1,5 +1,7 @@
 **Version 1.0.0 - Only tested this once so far and it seemed fine... Unaware of any problems at the moment.**
 
+**The Normal Mode version can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
+
 # VSHM Lakan Guide
 Calls out mechanics during the fight.
 
@@ -29,6 +31,3 @@ Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) 
 * You can disable "next" messages by setting the variable 'showNextMechanicMessage' to false
 * You can disable shield time warnings by setting the variable 'showShieldWarnings' to false
 * You can disable the Begone messages by setting the variable 'showBegoneMessages' to false
-
-
-**The Guide for VS Normal Mode can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
