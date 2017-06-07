@@ -1,4 +1,4 @@
-// vers 1.1.0
+// vers 1.0.1
 
 const format = require('./format.js');
 
