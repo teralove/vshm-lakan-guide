@@ -1,4 +1,4 @@
-// vers 1.0.0
+// vers 1.1.0
 
 const format = require('./format.js');
 
@@ -36,7 +36,7 @@ const InversedAction = {
 };
 
 const ShieldWarningTime = 80000; //ms
-const ShieldWarningMessage = 'Ring soon, get ready to dodge';
+const ShieldWarningMessage = 'Ring soon';
 
 module.exports = function VSHMLakanGuide(dispatch) {
 	
@@ -130,12 +130,15 @@ module.exports = function VSHMLakanGuide(dispatch) {
 			}
 			
 			if (Date.now() > (lastInversionTime + ShieldWarningTime) && !shieldWarned && boss) {
-				if (showShieldWarnings) sendMessage(ShieldWarningMessage);
+				if (showShieldWarnings) {
+					let hint = (!isInversed ? BossActions[1205142905].msg : BossActions[1205142906].msg);
+					sendMessage(ShieldWarningMessage + ' -> ' + hint);
+				}
 				shieldWarned = true;
 			}
 		}
 	 })
-			
+	
 	dispatch.hook('S_ACTION_STAGE', 1, (event) => {
 		if (!enabled || !boss) return;
 		

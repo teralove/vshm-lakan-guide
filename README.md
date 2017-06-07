@@ -1,4 +1,4 @@
-**Version 1.0.0 - Only tested this once so far and it seemed fine... Unaware of any problems at the moment.**
+**New - Only tested this once and it seemed fine... There's probably bugs somewhere, can't be sure until more tests are completed**
 
 **The Normal Mode version can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
 
@@ -31,3 +31,12 @@ Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) 
 * You can disable "next" messages by setting the variable 'showNextMechanicMessage' to false
 * You can disable shield time warnings by setting the variable 'showShieldWarnings' to false
 * You can disable the Begone messages by setting the variable 'showBegoneMessages' to false
+
+
+### Known Issues:
+* Joining an in-progress fight (as in, relogging on from a disconnect) will probably screw something up or throw errors.
+
+
+## Changelog 
+### 1.0.1
+* [+] Added followup hint (sleep, plague/regress) to the ring/shield warning messages.
