@@ -1,4 +1,4 @@
-**June 7, 2017 - Only tested this once so far and it seemed fine... There's probably bugs somewhere.**
+**Last updated: June 8, 2017 - Version 1.0.2**
 
 **The Normal Mode version can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
 
@@ -15,14 +15,14 @@ Available messages:
 * **Gather + no cleanse**  - aka Bombs
 * **Get out**  - for Begone! (Purple)
 * **Get in**  - for Begone! (Red/Orange)
-* **Ring soon**  - a warning for incoming soul mechanic
+* **Ring soon, get ready to dodge**  - a warning for soul mechanic incoming
 * **plague/regress**  - for the shield when entering Velik's soul
 * **sleep**  - for the shield when exiting Velik's soul
 
 
 ### Chat commands:
 * **!VSHM-Lakan** or **!VSHMLakan** - Toggles the module off/on (On by default)
-* **!VSHM-Lakan.party** or **!VSHMLakan.party** - Toggles sending messages to party/yourself (Default is yourself only)
+* **!VSHM-Lakan.party** or **!VSHMLakan.party** - Toggles sending messages to party/yourself (only yourself is default)
 
 Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) is supported but not required
 
@@ -38,5 +38,7 @@ Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) 
 
 
 ## Changelog 
+### 1.0.2
+* [+] Fixed: If the party wiped, some messges could be wrong on the following fight attempts.
 ### 1.0.1
 * [+] Added followup hint (sleep, plague/regress) to the ring/shield warning messages.

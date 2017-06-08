@@ -1,4 +1,4 @@
-// vers 1.0.1
+// vers 1.0.2
 
 const format = require('./format.js');
 
@@ -114,17 +114,14 @@ module.exports = function VSHMLakanGuide(dispatch) {
 		if (boss) {
 			let bossHp = bossHealth();
 			
-			if (bossHp <= 0) {
-				boss = undefined;
+			if (bossHp == 0) boss = undefined;
+			if (bossHp == 0 || bossHp == 1) {
 				lastNextAction = undefined;
 				isReversed = false;
 				isInversed = false;
 				shieldWarned = false;
 				lastInversionTime = undefined;
-				clearTimeout(timerNextMechanic);
-			} else if (bossHp == 1) {
-				lastInversionTime = undefined;
-				shieldWarned = false;
+				if (timerNextMechanic) clearTimeout(timerNextMechanic);
 			} else {
 				if (!lastInversionTime) lastInversionTime = Date.now();
 			}
@@ -164,8 +161,8 @@ module.exports = function VSHMLakanGuide(dispatch) {
 					shieldWarned = false;
 				} else if (!isReversed && BossActions[event.skill].next) {                       // normal "next"
 					nextMessage = BossActions[BossActions[event.skill].next].msg;
-					lastNextAction = BossActions[event.skill].next;
 					startTimer('Next: ' + nextMessage);
+					lastNextAction = BossActions[event.skill].next;
 				} else if (isReversed && BossActions[event.skill].prev) {                        // reversed "next"
 					nextMessage = BossActions[BossActions[event.skill].prev].msg;
 					startTimer('Next: ' + nextMessage);
