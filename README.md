@@ -1,5 +1,7 @@
 **Last updated: June 8, 2017 - Version 1.0.2**
 
+**Bug: Sometimes the first next message after an inversal is wrong**
+
 **The Normal Mode version can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
 
 # VSHM Lakan Guide
@@ -35,7 +37,7 @@ Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) 
 
 ### Known Issues:
 * Joining an in-progress fight (as in, relogging on from a disconnect) will probably screw something up or throw errors.
-
+* Sometimes the first next message after an inversal is wrong
 
 ## Changelog 
 ### 1.0.2
