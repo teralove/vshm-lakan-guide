@@ -95,8 +95,8 @@ module.exports = function VSHMLakanGuide(dispatch) {
 		let msgId = parseInt(event.message.replace('@dungeon:', ''));
 		if (BossMessages[msgId]) {
 			if (timerNextMechanic) clearTimeout(timerNextMechanic);
-			sendMessage('Next: ' + BossActions[BossMessages[msgId]].msg);
 			(bossHealth() > 0.5) ? isReversed = false : isReversed = true;
+			sendMessage('Next: ' + BossActions[BossMessages[msgId]].msg);
 		}
 	})
 	
