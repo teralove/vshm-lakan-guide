@@ -1,4 +1,4 @@
-// vers 1.0.2
+// vers 1.0.3
 
 const format = require('./format.js');
 
@@ -95,7 +95,7 @@ module.exports = function VSHMLakanGuide(dispatch) {
 		let msgId = parseInt(event.message.replace('@dungeon:', ''));
 		if (BossMessages[msgId]) {
 			if (timerNextMechanic) clearTimeout(timerNextMechanic);
-			sendMessage('Next: ' + BossActions[BossMessages[msgId]].msg);
+			if (showNextMechanicMessage) sendMessage('Next: ' + BossActions[BossMessages[msgId]].msg);
 			(bossHealth() > 0.5) ? isReversed = false : isReversed = true;
 		}
 	})

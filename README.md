@@ -1,6 +1,4 @@
-**Last updated: June 8, 2017 - Version 1.0.2**
-
-**Bug: Sometimes the first next message after an inversal is wrong**
+**Bug: Sometimes the first "next" message after an inversal is wrong. The immediate calls (without "next:") will be correct**
 
 **The Normal Mode version can be found here: [https://github.com/teralove/vsnm-lakan-guide](https://github.com/teralove/vsnm-lakan-guide)**
 
@@ -40,6 +38,8 @@ Commands are not case-sensitive. [slash](https://github.com/baldera-mods/slash) 
 * Sometimes the first next message after an inversal is wrong
 
 ## Changelog 
+### 1.0.3
+* [+] Fixed: showNextMechanicMessage would still show messages following a dungeon message.
 ### 1.0.2
 * [+] Fixed: If the party wiped, some messges could be wrong on the following fight attempts.
 ### 1.0.1
